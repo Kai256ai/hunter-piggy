@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hunter-piggy"
+version = "0.3.0"
+description = "Explainable scam, manipulation, anomaly, and mechanism detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Anna Kai / FreeIntelligence.Institute"}]
+dependencies = []
+
+[project.scripts]
+hunter-piggy-demo = "hunter_piggy.demo:main"
